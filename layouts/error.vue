@@ -1,7 +1,7 @@
 <template>
     <div class="error-page">
         <h1>Öyle bi sayfam yok</h1>
-        <p>Dilersen seni kurtarırım ama yal...</p>
+        <p>Dilersen seni kurtarırım ama neyse...</p>
     </div>
 </template>
 <style>
