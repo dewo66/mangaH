@@ -36,7 +36,7 @@ export default {
     },
     post: {
       required: true,
-      type: Array,
+      type: Object,
     },
   },
 };
