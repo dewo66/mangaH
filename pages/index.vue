@@ -14,7 +14,13 @@ export default {
   },
   data() {
     return {
-      mangaData: [
+    };
+  },
+  asyncData(context, callback){
+    setTimeout(() => {
+      console.log("çalıştı")
+      callback(null, {
+      mangaData : [
         {
           mangaName: "konasubarashi",
           bolumSayisi: 22,
@@ -51,8 +57,10 @@ export default {
           durumu: "devam ediyor...",
           img: "şimdillik boş",
         },
-      ],
-    };
-  },
+      ]
+    })
+    },2000  )
+
+  }
 }
 </script>

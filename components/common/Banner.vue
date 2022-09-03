@@ -2,7 +2,7 @@
     
 <div class="container-fluid bg">
     <div class="overlay"></div>
-    <h1 class="text-center text-white">Nuxt.js | Köse Yazıları</h1>
+    <h1 class="text-center text-white">Manga Web Site | Köse Yazıları</h1>
 </div>
 </template>
 
