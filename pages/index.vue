@@ -29,22 +29,7 @@ export default {
   },
   data() {
     return {
-      options : {
-  method: 'POST',
-  url: 'https://anilistmikilior1v1.p.rapidapi.com/createThread',
-  headers: {
-    'content-type': 'application/x-www-form-urlencoded',
-    'X-RapidAPI-Key': '9c6f69a844msh2a8344726ced6a1p1afb62jsnfc27ec3242c9',
-    'X-RapidAPI-Host': 'Anilistmikilior1V1.p.rapidapi.com'
-  },
-  data: encodedParams
-},
     };
-  },
-  asyncData({ $axios }) {
-    const ip = await $axios.$get('http://icanhazip.com')
-  return { ip }
-    
   },
 };
 </script>
