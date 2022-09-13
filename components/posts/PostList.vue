@@ -1,6 +1,11 @@
 <template>
   <div class="container-fluid">
-    <Post :post="post" v-for="post in posts" :is-admin="isAdmin" :key="post.id" />
+    <Post
+      :post="post"
+      v-for="post in posts"
+      :is-admin="isAdmin"
+      :key="post.id"
+    />
   </div>
 </template>
 

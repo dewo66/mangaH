@@ -21,12 +21,16 @@
 <script>
 import PostListVue from "../components/posts/PostList.vue";
 export default {
-  modules: ['@nuxtjs/axios'],
+  modules: ["@nuxtjs/axios"],
   components: {
     PostListVue,
   },
+  created() {
+    this.$store.dispatch("setPosts", this.mangaData);
+  },
   data() {
-    return { mangaData: [
+    return {
+      mangaData: [
         {
           mangaName: "konasubarashi",
           bolumSayisi: 22,
